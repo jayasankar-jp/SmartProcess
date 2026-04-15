@@ -4,7 +4,7 @@
 
 BOARD      = arduino:avr:uno
 OUTPUT_DIR = build
-EXAMPLES   = $(wildcard example/*/*.ino)
+EXAMPLES   = $(wildcard examples/*/*.ino)
 ARDUINO_CLI = arduino-cli
 
 all: compile
